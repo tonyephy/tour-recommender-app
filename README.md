@@ -153,24 +153,16 @@ We welcome contributions to improve the **Tour Recommender App**. If you'd like 
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🧑‍💻 Contact
 
-For any inquiries or feedback, feel free to reach out to:
+For questions, feedback, or support, feel free to reach out:
 
-- Email: [your-email@example.com]
-- GitHub: [@yourusername](https://github.com/yourusername)
-
+- **Email**: [tonylvan77@gmail.com](mailto:tonylvan77@gmail.com)
+- **Paypal Email**: [antonywanjiru7777@gmail.com](mailto:antonywanjiru7777@gmail.com)
 ---
 
 Thank you for using **Tour Recommender App**! 🌍 Happy exploring! 🚴‍♂️🌲
 ```
-
-### Key Updates:
-- **Images in `assets/images/`**: The images for the home screen, recommendation screen, and park details are referenced in the README file and are expected to be stored in the `assets/images/` folder of your project.
-- Ensure that the screenshots are placed in the appropriate folder (`assets/images/`) within your project directory so that they can be properly displayed in the README file.
