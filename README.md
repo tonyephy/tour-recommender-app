@@ -1,6 +1,3 @@
-# tour-recommender-app
-
-```markdown
 # 🚀 **Tour Recommender App** 🌍
 
 Welcome to the **Tour Recommender App**! This app helps users discover parks based on their selected outdoor activities, providing personalized recommendations with real-time data, navigation, and detailed park information. It also offers additional features such as **User Reviews**, **Travel Tips**, **Photo Gallery**, and **Feedback** to enhance the user experience.
@@ -16,17 +13,45 @@ Welcome to the **Tour Recommender App**! This app helps users discover parks bas
 - **Photo Gallery**: Browse a gallery of images for each park to get a better sense of the location.
 - **Feedback**: Submit your feedback to improve the app and suggest new features.
 - **User History**: View previously selected activities for quicker access.
+- **User Profile**: View and  Edite User Profile.
 
 ## 📱 Screenshots
-
+## Home Screen: Dash board have tiles.
 ![Home Screen](assets/images/dashboard.jpg)  
-*Home Screen: Dash board have tiles.*
-
-![Recommendation Screen](assets/images/recommendations_screen.png)  
+## Preference Screens after navigation to Browse
+![Preference Screen](assets/images/preference_screen.jpg) 
+![Preference Search Screen](assets/images/search_preference.jpg) 
+![Preference Search Screen](assets/images/selected_preferences.jpg)
+*Recommendations: See personalized park suggestions based on your selected activities.*
+## Recommendation Screen
+![Recommendation Screen](assets/images/recommendation.jpg)
+## Recommendation Screen
+![Recommendation Screen](assets/images/recommended_parks.jpg)
+## Recommendation Screen
+![Recommendation Screen](assets/images/recommended2.jpg)
+## Recommendation Screen
+![Recommendation Screen](assets/images/recommended3.jpg)  
 *Recommendations: See personalized park suggestions based on your selected activities.*
 
-![Park Details](assets/images/park_details.png)  
-*Park Details: Get more info about each park, its activities, and read user reviews.*
+## Park Details: Get more info about each park, its activities,read Write user reviews, Travel Tips, User Profiles, Gallery, Favorites, 
+## Travels Tips screen
+![Travel Tips](assets/images/Travel_tips.jpg) 
+## Read User Reviews
+![User Reviews](assets/images/reviews.jpg)
+## Write User Reviews
+![User Reviews](assets/images/write_review.jpg)
+## Gallery Screen
+![Park Photos](assets/images/gallery.jpg)
+## My favorites has List of favorite Parks
+![List of favorite Parks](assets/images/myfavorite.jpg)
+## User Profile
+![User Profile](assets/images/profile.jpg)
+## View User details
+![User Details](assets/images/user_details.jpg)
+## Create User Profile
+![Create User Details](assets/images/create_profile.jpg)
+
+
 
 ---
 
@@ -147,13 +172,5 @@ Thank you for using **Tour Recommender App**! 🌍 Happy exploring! 🚴‍♂�
 ```
 
 ### Key Updates:
-- **User Reviews**: Section to read reviews from other users to help in decision-making.
-- **Travel Tips**: Added tips for each park, enhancing the travel experience.
-- **Photo Gallery**: Users can browse a collection of park images.
-- **Feedback**: A place for users to leave feedback for app improvements.
-
-### Next Steps:
-- Add the appropriate content for **User Reviews**, **Travel Tips**, **Photo Gallery**, and **Feedback** in your Firebase setup (or wherever applicable).
-- Include real screenshots of the new features in the `assets/images/` folder and update their paths.
-
-Let me know if you need further assistance or tweaks!
+- **Images in `assets/images/`**: The images for the home screen, recommendation screen, and park details are referenced in the README file and are expected to be stored in the `assets/images/` folder of your project.
+- Ensure that the screenshots are placed in the appropriate folder (`assets/images/`) within your project directory so that they can be properly displayed in the README file.
