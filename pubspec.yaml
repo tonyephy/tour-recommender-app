@@ -1,0 +1,66 @@
+name: tour_recommender
+description: "The Tour Recommender Mobile Application aims to redefine how travelers explore and connect with diverse destinations, fostering a deeper appreciation for cultural heritage, natural beauty, and sustainable tourism practices worldwide."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: 13.0.1 # For location services
+  flutter_polyline_points: ^2.1.0
+  geocoding: ^2.0.4
+  http: ^1.2.2       # For making network requests
+  image_picker: ^1.1.2  # Ensure you have the latest version
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.9.0
+  url_launcher: ^6.0.20
+  timeago: ^3.6.0
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  shared_preferences: ^2.0.15
+  google_fonts: ^5.1.0
+  flutter_slidable: ^3.0.0
+  permission_handler: ^11.0.1
+  firebase_core: ^3.1.1
+  firebase_analytics: ^11.0.0
+  firebase_auth: ^5.1.1
+  firebase_ui_auth: ^1.15.0
+  flutter_typeahead: ^4.0.0
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  google_sign_in: ^6.2.1 # Added google_sign_in package
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+  flutter_rating_bar: ^4.0.0
+  test_api: 0.7.2
+
+dev_dependencies:
+  build_runner: ^2.4.13  # Check for the latest version
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash_image.png
+    - assets/welcome.png
+    - assets/features.jpg
+    - assets/personalized.png
+    - assets/connected.jpg
+    - assets/get_started.jpeg
+    - assets/google_logo.png
+    - assets/logo.png
+    - assets/images/signup.jpeg
+    - assets/images/logo2.png

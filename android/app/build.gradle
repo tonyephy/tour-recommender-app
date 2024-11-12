@@ -1,0 +1,91 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+    id 'com.google.gms.google-services'
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+android {
+    namespace = 'com.example.tour_recommender'
+    compileSdkVersion 34
+    ndkVersion "21.4.7075529"
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId = 'com.example.tour_recommender'
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode = flutterVersionCode.toInteger()
+        versionName = flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = '../..'
+}
+
+dependencies {
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:32.7.4')  // Updated to stable version
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // Google Play Services
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'  // Updated to stable version
+
+    // AndroidX
+    implementation 'androidx.appcompat:appcompat:1.6.1'  // Downgraded to stable version
+    implementation 'androidx.appcompat:appcompat-resources:1.6.1'  // Added explicitly
+    implementation 'com.google.android.material:material:1.11.0'  // Updated to stable version
+    implementation 'androidx.core:core-ktx:1.12.0'  // Updated to stable version
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'  // Updated to stable version
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'  // Updated to stable version
+}
+
+apply plugin: 'com.google.gms.google-services'

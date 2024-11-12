@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "611853937212",
+    "firebase_url": "https://tour-recommender-app-default-rtdb.firebaseio.com",
+    "project_id": "tour-recommender-app",
+    "storage_bucket": "tour-recommender-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611853937212:android:7a09d38df4c62ee5d6f139",
+        "android_client_info": {
+          "package_name": "com.example.tour_recommender"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUAP-ln1Ij413GGNZuV-n3jVd190xZ638"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611853937212:android:7d3377ffd18b19b5d6f139",
+        "android_client_info": {
+          "package_name": "com.tourrecommender.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUAP-ln1Ij413GGNZuV-n3jVd190xZ638"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
