@@ -1,0 +1,39 @@
+
+flutterfire configure --project=crime-analysis-app-e0f38 --android-app-id=com.example.crime_app
+
+Provide the Package Name Directly in the Command
+Run the flutterfire configure command with the --android-app-id flag to specify the Android package name. For example:
+
+powershell
+Copy code
+flutterfire configure --project=crime-analysis-app-e0f38 --android-app-id=com.example.crimeapp
+Replace com.example.crimeapp with your desired Android package name. Make sure it's unique and follows the standard format: com.yourdomainname.appname.
+
+
+
+PS C:\Users\tonyl\Desktop\My projects\crime_app> flutterfire configure --project=crime-analysis-app-e0f38 --android-app-id=com.example.crimeapp
+i Found 1 Firebase projects. Selecting project crime-analysis-app-e0f38.
+✔ Which platforms should your configuration support (use arrow keys & space to select)? · android, ios, macos, web, windows
+Warning - android-app-id (-a) is deprecated. Consider using android-package-name (-p) instead.
+i Firebase android app com.example.crimeapp is not registered on Firebase project crime-analysis-app-e0f38.
+i Registered a new Firebase android app on Firebase project crime-analysis-app-e0f38.
+i Firebase ios app com.example.crimeApp is not registered on Firebase project crime-analysis-app-e0f38.
+i Registered a new Firebase ios app on Firebase project crime-analysis-app-e0f38.
+i Firebase macos app com.example.crimeApp registered.
+i Firebase web app crime_app (web) is not registered on Firebase project crime-analysis-app-e0f38.
+i Registered a new Firebase web app on Firebase project crime-analysis-app-e0f38.
+i Firebase windows app crime_app (windows) is not registered on Firebase project crime-analysis-app-e0f38.
+i Registered a new Firebase windows app on Firebase project crime-analysis-app-e0f38.
+
+Firebase configuration file lib\firebase_options.dart generated successfully with the following Firebase apps:
+
+Platform  Firebase App Id
+web       1:746720866452:web:8e3a591baa32cf9b610481
+android   1:746720866452:android:7dd1dc6c9684d5b2610481
+ios       1:746720866452:ios:cc49be8760bdcbd7610481
+macos     1:746720866452:ios:cc49be8760bdcbd7610481
+windows   1:746720866452:web:bc7b8f5bbfd9e849610481
+
+Learn more about using this file and next steps from the documentation:
+ > https://firebase.google.com/docs/flutter/setup
+PS C:\Users\tonyl\Desktop\My projects\crime_app>
